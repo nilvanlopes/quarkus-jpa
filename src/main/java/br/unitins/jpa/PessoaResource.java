@@ -72,6 +72,7 @@ public class PessoaResource {
                 // Atualiza os campos da pessoa existente com os valores recebidos
                 pessoaExistente.nome_pessoa = pessoa.nome_pessoa;
                 pessoaExistente.email_principal = pessoa.email_principal;
+                pessoaExistente.fone_res = pessoa.fone_res;
 
                 // Persiste as alterações no banco de dados
                 pessoaExistente.persist();
